@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #59429d;
+    background-color: #F0F8FF;
+    font-family: sans-serif;
+}
+
+header{
+    /* background-color: rgb(124, 238, 238); */
+    width: 500px;
+    max-width: 500px;
+    margin: 50px auto 0px;
+}
+
+
+/* geral */
+form{
+    /* background-color: rgb(124, 238, 238); */
+    width: 500px;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+input{
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    padding: 2px;
+    color: #59429d;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: #cbbbfc;
+}
+
+fieldset{
+    border: none;
+}
+
+
+.text-p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-p-margem{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.mais-margem{
+    margin-bottom: 10px;
+}
+/* /////// */
+
+
+
+/* header */
+.div-header-titulo{
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#titulo{
+    font-family: sans-serif;
+    color: #380B61;
+}
+
+#subTitulo{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+/* elementos entrada,name, sobrenome*/
+.fieldset-1{
+    display: flex;
+    font-family: sans-serif;
+    border: none;
+}
+/*  */
+.div-nomeSobrenome{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* elemento email */
+.div-email{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 7px;
+}
+/*  */
+
+.labelEmail, .labelInputEmail {
+    display: block;
+}
+
+
+/*  aplicação você desenvolve?*/
+
+ 
+
+
+/* senioridade,, div-senioridade */
+select{
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* tecnologias que utiliza fieldset-tecnologias*/
+
+
+
+/* Conte um pouco de sua experiência: */
+textarea{
+    border-radius: 5px;
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+}
+
+
+
+/* Concluido */
+.div-button{
+width: 100%;
+/* justify-content: center; */
+
+}
+button{
+    display: block;
+    margin-top: 50px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    border:none;
+    border-radius: 5px;
+    background: #59429d;
+    padding: 4px 12px;
+    margin: 30px 75% 0 25%;
+    cursor: pointer;
+}
